@@ -1,0 +1,38 @@
+div {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  letter-spacing: -1px;
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  border: 1px solid #aaa;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 2px 2px 5px #ccc;
+  padding-top: 2px;
+}
+
+.one {
+  background-image: url(images/icon.png);
+}
+
+.two {
+  background-image: -webkit-linear-gradient(top,#aaa,#eee);
+  background-image: -moz-linear-gradient(top,#aaa,#eee);
+  background-image: -ms-linear-gradient(top,#aaa,#eee);
+  background-image: -o-linear-gradient(top,#aaa,#eee);
+  background-image: linear-gradient(to bottom,#aaa,#eee);
+}
+
+.three {
+  background-image: url(images/icon.png), -webkit-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -moz-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -ms-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), -o-linear-gradient(top,#aaa,#eee);
+  background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
+}
